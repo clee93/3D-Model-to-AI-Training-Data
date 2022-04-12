@@ -4,8 +4,8 @@ Renders 3D model in with various configurations and labels them for AI image tra
 ## Contents
 * [Setup & Requirements](README.md#setup--requirements)
 * [Usage](README.md#usage)
-* [Additional Resources](README.md#additional-resources)
 * [Common Problems](README.md#common-problems)
+* [Additional Resources](README.md#additional-resources)
 
 ## Setup & Requirements
 **Requirements**
@@ -38,6 +38,8 @@ https://github.com/clee93/3D-Model-to-AI-Training-Data/blob/410fe435b794fa8b0d0a
 You can access the render in the Studio.unity scene and select `Render` as shown in highlighed blue and then navigate to the Inspector Window.
 
 ![Pic](ReadmeImages/Render.png?raw=true "Render")
+
+<br/>
 
 **Using the Render**
 
@@ -85,6 +87,8 @@ Everything above the `---------------` line is pre-filled and can be ignored.
    * Maxium Possible Train Set Size
       > This is the maxium space required for the training set (debug images are not considered). This does not take into account compression. The actual size will most likely be smaller.
 
+<br/>
+
 **Configuring the Subject and Environment**
 
 ![Pic](ReadmeImages/HierarchyExploaded.png?raw=true "Hierarchy Exploaded View")
@@ -114,6 +118,7 @@ Everything above the `---------------` line is pre-filled and can be ignored.
    > 
    > Add `RenderObject` to UserLayer 11
 
+<br/>
 
 **Missing Textures**
 * Error
