@@ -5,6 +5,7 @@ Renders 3D model in with various configurations and labels them for AI image tra
 * [Setup & Requirements](README.md#setup--requirements)
 * [Usage](README.md#usage)
 * [Additional Resources](README.md#additional-resources)
+* [Common Problems](README.md#common-problems)
 
 ## Setup & Requirements
 **Requirements**
@@ -89,17 +90,38 @@ Everything above the `---------------` line is pre-filled and can be ignored.
 ![Pic](ReadmeImages/HierarchyExploaded.png?raw=true "Hierarchy Exploaded View")
 
 * Lighting Profiles
+   > The render will iterated through each `GameObject` in `Lighting Profiles` (only first layer is affected, no recursion or nesting).
    > 
+   > Select `Directional Light` then press `ctrl + d` to add more lighting profiles, move to the inspector to adjust the specific lighting conditions desired.
 * Focused Model Folder
-   > The render will iterate through each independent model.
-* Environment Folder
+   > The render will iterated through each `GameObject` in `FocusedModelFolder` (only first layer is affected, no recursion or nesting).
    > 
+   > The user must manually position the Object after dragging it into the `FocusedModelFolder`, this can be done easily by enabling the `COV` `GameObject` as a refernce for centering.
+   > 
+   > The `class.names` files will take on the name of Object
+* Environment Folder
+   > The render will iterated through each `GameObject` in `EnvironmentFolder` (only first layer is affected, no recursion or nesting).
+   > 
+   > Environments are not randomly generated, the user must manually add them.
 
 ## Common Problems
 
 **Missing User Layer 11**
-![Pic](ReadmeImages/TagError.png?raw=true "Missing Layer")
-![Pic](ReadmeImages/Tags.png?raw=true "Tags and Layers")
+* Error
+   > ![Pic](ReadmeImages/TagError.png?raw=true "Missing Layer")
+* Fix
+   > ![Pic](ReadmeImages/Tags.png?raw=true "Tags and Layers")
+   > 
+   > Add `RenderObject` to UserLayer 11
+
+
+**Missing Textures**
+* Error
+   > Model is untextured
+* Fix
+   > ![Pic](ReadmeImages/Texture.png?raw=true "Texture")
+   > 
+   > Select `Extract Textures`
 
 ## Additional Resources
 **Darknet Tutorial:**
