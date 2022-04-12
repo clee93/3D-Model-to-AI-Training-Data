@@ -55,6 +55,20 @@ Everything above the `---------------` line is pre-filled and can be ignored.
       | ResizeToLabel         | Images are cropped so that the object fills the entire screen, then placed in their respective folders                     |
       | YOLOUsingDarknet      | Images are outputed with label and class details as specified for https://github.com/AlexeyAB/darknet                      |
       | YOLOUsingTensorFlow   | Images are outputed with label and class details as specified for https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3   | 
-      | PascalVOC             | Not yet implemented      | 
-      | Keras                 | Images are exported and placed in their respective folders, no labeling                          |
+      | PascalVOC             | Not yet implemented                                                                                                        | 
+      | Keras                 | Images are exported and placed in their respective folders for https://www.tensorflow.org/tutorials/images/classification  |
+      
+      
+## Additional Resources
+**Darknet Tutorial:**
+
+https://www.youtube.com/watch?v=sKDysNtnhJ4
+
+https://www.youtube.com/watch?v=-NEB5P-SLi0
+
+<br/>
+
+**Yolo on Tensorflow Tutorial:**
+
+https://www.youtube.com/watch?v=PaJ1rU-DgLs
 
