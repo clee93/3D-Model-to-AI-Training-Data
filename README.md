@@ -29,3 +29,32 @@ https://github.com/clee93/3D-Model-to-AI-Training-Data/blob/410fe435b794fa8b0d0a
 
 ## Usage
 
+**Accessing the Render**
+
+![Pic](ReadmeImages/Hierarchy.png?raw=true "Hierarchy")
+
+You can access the render in the Studio.unity scene and select `Render` as shown in highlighed blue and then navigate to the Inspector Window.
+
+![Pic](ReadmeImages/Render.png?raw=true "Render")
+
+** Using the Render **
+
+Everything above the `---------------` line is pre-filled and can be ignored.
+
+* Configuration
+   * Render Debug Images
+      > This will output an addition png image per every viable training iamge with a bounding box surrounding the object.
+* Output Resolution
+   * Output Resolution
+      > Allows modification to the ouput image so that it may fit the neural net
+   * Label Type
+   
+      | Label                 | Ouput                                                                                                                      | 
+      | --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+      | NoLabel               | Images are unlabled                                                                                                        |
+      | ResizeToLabel         | Images are cropped so that the object fills the entire screen, then placed in their respective folders                     |
+      | YOLOUsingDarknet      | Images are outputed with label and class details as specified for https://github.com/AlexeyAB/darknet                      |
+      | YOLOUsingTensorFlow   | Images are outputed with label and class details as specified for https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3   | 
+      | PascalVOC             | Not yet implemented      | 
+      | Keras                 | Images are exported and placed in their respective folders, no labeling                          |
+
