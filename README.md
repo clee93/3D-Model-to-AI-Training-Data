@@ -1,7 +1,7 @@
 # 3D-Model-to-AI-Image-Training-Data
 Renders 3D model in with various configurations and labels them for AI image training.
 
-[test](main/README.md#setup--requirements)
+[test](README.md#setup--requirements)
 
 ## Setup & Requirements
 **Requirements**
