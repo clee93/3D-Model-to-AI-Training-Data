@@ -4,6 +4,7 @@ Renders 3D model in with various configurations and labels them for AI image tra
 ## Contents
 * [Setup & Requirements](README.md#setup--requirements)
 * [Usage](README.md#usage)
+* [Additional Resources](README.md#additional-resources)
 
 ## Setup & Requirements
 **Requirements**
@@ -82,7 +83,24 @@ Everything above the `---------------` line is pre-filled and can be ignored.
       > The exact numbers that will be generated per class.
    * Maxium Possible Train Set Size
       > This is the maxium space required for the training set (debug images are not considered). This does not take into account compression. The actual size will most likely be smaller.
-  
+
+**Configuring the Subject and Environment**
+
+![Pic](ReadmeImages/HierarchyExploaded.png?raw=true "Hierarchy Exploaded View")
+
+* Lighting Profiles
+   > 
+* Focused Model Folder
+   > The render will iterate through each independent model.
+* Environment Folder
+   > 
+
+## Common Problems
+
+**Missing User Layer 11**
+![Pic](ReadmeImages/TagError.png?raw=true "Missing Layer")
+![Pic](ReadmeImages/Tags.png?raw=true "Tags and Layers")
+
 ## Additional Resources
 **Darknet Tutorial:**
 
