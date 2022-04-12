@@ -129,7 +129,7 @@ Everything above the `---------------` line is pre-filled and can be ignored.
    > Select `Extract Textures`
 
 ## Additional Resources
-**Darknet Tutorial:**
+**Yolo on Darknet Tutorial:**
 
 https://www.youtube.com/watch?v=sKDysNtnhJ4
 
