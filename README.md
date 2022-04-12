@@ -1,7 +1,9 @@
 # 3D-Model-to-AI-Image-Training-Data
 Renders 3D model in with various configurations and labels them for AI image training.
 
-[test](README.md#setup--requirements)
+## Contents
+* [Setup & Requirements](README.md#setup--requirements)
+* [Usage](README.md#usage)
 
 ## Setup & Requirements
 **Requirements**
@@ -26,3 +28,4 @@ https://github.com/clee93/3D-Model-to-AI-Training-Data/blob/410fe435b794fa8b0d0a
 https://github.com/clee93/3D-Model-to-AI-Training-Data/blob/410fe435b794fa8b0d0ab9ac3f35dca7fd07cdc8/Assets/VirtualRenderStudio/Scripts/Render.cs#L313
 
 ## Usage
+
