@@ -6,6 +6,7 @@ Renders 3D model in with various configurations and labels them for AI image tra
 * [Usage](README.md#usage)
 * [Common Problems](README.md#common-problems)
 * [Additional Resources](README.md#additional-resources)
+* [Similar Works](README.md#similar-works)
 
 ## Setup & Requirements
 **Requirements**
@@ -140,4 +141,10 @@ https://www.youtube.com/watch?v=-NEB5P-SLi0
 **Yolo on Tensorflow Tutorial:**
 
 https://www.youtube.com/watch?v=PaJ1rU-DgLs
+
+## Similar Works
+
+https://research.nvidia.com/publication/2018-06_Falling-Things
+
+https://ieeexplore.ieee.org/xpl/conhome/9290510/proceeding
 
