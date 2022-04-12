@@ -146,5 +146,5 @@ https://www.youtube.com/watch?v=PaJ1rU-DgLs
 
 https://research.nvidia.com/publication/2018-06_Falling-Things
 
-https://ieeexplore.ieee.org/xpl/conhome/9290510/proceeding
+https://ieeexplore.ieee.org/document/9290491
 
