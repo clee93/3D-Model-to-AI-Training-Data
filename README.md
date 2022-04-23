@@ -142,6 +142,12 @@ https://www.youtube.com/watch?v=-NEB5P-SLi0
 
 https://www.youtube.com/watch?v=PaJ1rU-DgLs
 
+<br/>
+
+**Yolo Detection:**
+
+https://github.com/clee93/Yolo-Detection-In-Unity-Environment
+
 ## Similar Works
 
 https://research.nvidia.com/publication/2018-06_Falling-Things
